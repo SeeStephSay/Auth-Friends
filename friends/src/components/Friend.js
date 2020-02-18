@@ -67,7 +67,7 @@ const Friend = (props) => {
 									type='text'
 									name='name'
 									id='nameLabel'
-									placeholder='John Doe'
+									placeholder='Jane Doe'
 									value={forms.name}
 									onChange={handleChanges}
 								/>

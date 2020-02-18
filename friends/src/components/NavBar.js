@@ -6,13 +6,13 @@ const NavBar = () => {
 	return (
 		<div>
 			<Navbar color='light' light expand='md'>
-				<NavbarBrand href='/'>Friends</NavbarBrand>
+				<NavbarBrand className='brand' href='/'>FRIENDS</NavbarBrand>
 				<NavbarToggler />
 				<Nav className='ml-auto' navbar>
 					<NavItem>
-						<NavLink href=''>Login</NavLink>
+						<NavLink href='/'>Login</NavLink>
 					</NavItem>
-					<Link to='/friendPage'>Friend Page</Link>
+          <Link className='styled' to='/friendlist'>Friends List</Link>
 				</Nav>
 			</Navbar>
 		</div>
