@@ -18,7 +18,7 @@ const PrivateRoute = ({ component: Component, render: Render, ...rest }) => {
 					if (Component) return <Component {...props} />;
 					if (Render) return Render(props);
 				} else {
-					<Redirect to='login' />;
+					return <Redirect to='login' />;
 				}
 			}}
 		/> // Route closing
